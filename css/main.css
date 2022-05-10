@@ -10,3 +10,9 @@ p {
     font-size: 1em;
     max-width: 50%;
 }
+
+blockquote {
+    font-style: italic;
+    max-width: 30%;
+    color: green;
+}
