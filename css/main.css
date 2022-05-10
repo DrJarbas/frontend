@@ -2,6 +2,28 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.navega {
+    margin: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid green;
+}
+nav a:hover {
+    background-color: green;
+    color: white;
+}
+
 h1 {
     text-align: center;
 }
