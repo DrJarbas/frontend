@@ -13,8 +13,8 @@
   }
 
   #navbar {
-      background-color: blueviolet;
-      grid-column: 1 / 3;
+    background-color: blueviolet;
+    grid-column: 1 / 3;
   }
 
   #main {
@@ -27,6 +27,7 @@
       background-color: cornflowerblue;
       font-size: 1em;
       grid-column: 1 / -1;
+      padding-left: 15px;
   }
 
 
@@ -39,6 +40,7 @@ body {
 }
 
 nav ul li {
+ 
     list-style: none;
     display: inline;
 }

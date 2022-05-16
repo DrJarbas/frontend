@@ -1,0 +1,43 @@
+/* CSS for structure */
+#container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px auto;
+    height: 100VH;
+    gap: 5px;
+}
+
+#topo {
+    grid-column: 2 / -1;
+    background-color: #105652;
+    border-radius: 1rem;
+    height: 100px;
+
+}
+
+#mesa {
+    grid-column: 2 / -1;
+    background-color: #DFD8CA;
+    border-radius: 1rem;
+}
+
+#menu {
+    grid-row: 1 / -1;
+    background-color: #FF4949;
+    border-radius: 1rem;
+
+}
+
+
+
+/*  CSS for aesthetics*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FBF3E4;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    color: white;
+}
